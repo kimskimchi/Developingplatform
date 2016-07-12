@@ -1,0 +1,19 @@
+body{
+
+}
+
+.Hidden{
+    display: none;
+}
+
+.statusgreen{
+    color: rgb(0, 200, 0);
+}
+
+.statusyellow{
+    color: rgb(200, 200, 0);
+}
+
+.statusred{
+    color: rgb(200, 0, 0);
+}
