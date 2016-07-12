@@ -2,8 +2,44 @@ body{
 
 }
 
+#box1{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 400px;
+}
+
+#box2{
+    display: inline-block;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height:200px;
+    width: 200px;
+    left: 500px;
+    top: 450px;
+}
+
+#box3{
+    display: block;
+    border: 1px solid black;
+    height: 300px;
+    width: 600px;
+    left: 100px;
+    top: 600px;
+}
+
 .Hidden{
     display: none;
+}
+
+textarea{
+    height: 17pt;
+    width: 300px;
+    font-size: 15pt;
 }
 
 .statusgreen{
