@@ -1,0 +1,139 @@
+body{
+	padding: 0; 
+	margin: 0;
+	font-family: Rockwell, serif;
+}
+
+#main_nav {
+  list-style-type: none;
+  width: 15%;
+  height: 100%; 
+  position: fixed;  /* navigation bar stays on the left*/
+  top: 0;
+  left: 0;
+}
+
+main{
+    margin-left: 15%;
+    width: 85%;
+    overflow: hidden;
+}
+
+section{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#applyAppTop{
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
+}
+
+#applyAppTop img{
+	float:left;
+	width: 15%; 
+}
+
+#applyAppTop div{
+	text-align: center;
+	float:left;
+	left: 15%;
+	width: 84%; 
+	padding: 0 0 0 1%; 
+	border-left: 2px solid #000000;
+	list-style: none;
+	height: 100%;
+	position: absolute;
+}
+#applyAppTop h2{
+	padding: 4% 0 0 0; 
+	margin: 0; 
+}
+
+#discussionTitle{
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
+}
+#discussionTitle h2{
+	padding: 3% 0 3% 4%; 
+	margin: 0; 
+}
+
+
+.scrollable {
+    height: 400px; /* or any value */
+    overflow-y: auto;
+}
+#discussion{
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
+	height: 400px;
+}
+
+#discussion ul{
+	list-style: none;
+}
+
+#addComment{
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
+
+}
+
+#addComment textarea{
+	margin-top: 1%;
+	margin-left: 25%;
+	width: 50%;
+}
+
+#addComment div{
+	margin: 1% 0 1% 25%;
+}
+
+#detailmenu{
+	border-bottom: 2px solid #000000;
+	border-left: 2px solid #000000;
+}
+
+#detailmenu div{
+	padding: 2% 0 2% 0;
+	float:left;
+	width: 24.3%;
+	padding-left: 0.5%;
+	text-align: center;
+	cursor: pointer;
+}
+
+#detailmenuOwnerNotes{
+	border-right: 2px solid #000000;
+}
+#detailmenuDescription{
+	border-right: 2px solid #000000;
+}
+#detailmenuLookingfor{
+	border-right: 2px solid #000000;
+}
+
+
+
+#detail{
+	border-left: 2px solid #000000;
+}
+
+#detail h2{
+	padding: 2% 0 0 25%; 
+
+}
+
+#detail p{
+	padding: 4.5% 25% 0 25%; 
+	margin-bottom: 3%;
+	line-height: 200%;
+}
+
+
+.Hidden{
+    display: none;
+}
