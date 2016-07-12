@@ -3,7 +3,7 @@ window.onload = function(){
     window.ctx = c.getContext("2d"); // Dealing with a global context is easier
 }
 
-var active = 0;
+var active = 7;
 
 document.getElementById("option1").onclick = function() {
     reset();
@@ -47,6 +47,18 @@ document.getElementById("option7").onclick = function() {
     $("#Search").removeClass("Hidden");
 }
 
+document.getElementById("signoption").onclick = function() {
+    reset();
+    active = 8;
+    $("#Signup").removeClass("Hidden");
+}
+
+document.getElementById("sign").onclick = function() {
+    reset();
+    active = 0;
+    $("#Main").removeClass("Hidden");
+}
+
 function reset(){
     if(active === 0){
         $("#Main").addClass("Hidden");
@@ -68,5 +80,11 @@ function reset(){
     }
     else if(active === 6){
         $("#Search").addClass("Hidden");
+    }
+    else if(active === 7){
+        $("#Home").addClass("Hidden");
+    }
+    else if(active === 8){
+        $("#Signup").addClass("Hidden");
     }
 }
